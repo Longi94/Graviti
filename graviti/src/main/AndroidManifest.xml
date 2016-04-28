@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tlongdev.graviti" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.tlongdev.graviti.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.tlongdev.graviti.PlayGameActivity"
+            android:label="@string/title_activity_play_game"
+            android:parentActivityName="com.tlongdev.graviti.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tlongdev.graviti.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.tlongdev.graviti.RushGameActivity"
+            android:label="@string/title_activity_rush_game"
+            android:parentActivityName="com.tlongdev.graviti.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tlongdev.graviti.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.tlongdev.graviti.MultiPlayerEasyActivity"
+            android:label="@string/title_activity_multiplayer"
+            android:parentActivityName="com.tlongdev.graviti.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tlongdev.graviti.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.tlongdev.graviti.MultiPlayerHardActivity"
+            android:label="@string/title_activity_multi_player_hard"
+            android:parentActivityName="com.tlongdev.graviti.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tlongdev.graviti.MainActivity" />
+        </activity>
+
+        <service
+            android:name="com.tlongdev.graviti.service.BackgroundMusicService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Background Music" />
+
+    </application>
+
+
+
+</manifest>

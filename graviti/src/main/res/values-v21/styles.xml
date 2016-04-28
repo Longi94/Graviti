@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/Animation.SlideTransitions</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <!-- just defines top layer "Animation" -->
+    <style name="Animation" />
+
+    <!-- the animations must have been defined in your "anim" folder, of course -->
+    <style name="Animation.SlideTransitions">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="MenuItemText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">32sp</item>
+        <item name="android:background">@drawable/text_selector_masked</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="TitleText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">52sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

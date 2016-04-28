@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">400498918472</string>
+
+    <string name="leaderboard_normal">CgkIyIji_NMLEAIQAQ</string>
+    <string name="leaderboard_rush">CgkIyIji_NMLEAIQAg</string>
+
+    <string name="achievement_noob">CgkIyIji_NMLEAIQBA</string>
+    <string name="achievement_to_the_stars">CgkIyIji_NMLEAIQBQ</string>
+    <string name="achievement_rookie">CgkIyIji_NMLEAIQBg</string>
+    <string name="achievement_pro">CgkIyIji_NMLEAIQBw</string>
+    <string name="achievement_king">CgkIyIji_NMLEAIQCA</string>
+</resources>

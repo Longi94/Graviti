@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Graviti</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_rush_game">RushGameActivity</string>
+    <string name="preference_name">com.tlongdev.gravity.PREFERENCES</string>
+    <string name="pref_highscore_key">com.tlongdev.graviti.highscore</string>
+    <string name="pref_highscore_rush_key">com.tlongdev.graviti.rush</string>
+    <string name="pref_music_key">com.tlongdev.graviti.music</string>
+    <string name="main_font_name">retrospective.otf</string>
+    <string name="level_normal">Normal</string>
+    <string name="level_rush">Rush</string>
+    <string name="level_multiplayer">Multiplayer</string>
+    <string name="leaderboard_text">Leaderboards</string>
+    <string name="google_sign_in">Sign in</string>
+    <string name="google_sign_out">Sign out</string>
+    <string name="default_score">0</string>
+    <string name="title_activity_play_game">PlayGameActivity</string>
+    <string name="title_activity_multiplayer">MultiplayerActivity</string>
+    <string name="title_activity_multi_player_hard">MultiPlayerHardActivity</string>
+
+</resources>
